@@ -485,10 +485,18 @@ hr{
 
 .wedo{
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
 }
 
 .wedo__item{
     width: 50%;
+    padding: 0 15px;
+}
+.wedo__img{
+    display: block;
+    min-width: 100%;
+    height: auto;
 }
 
 /* Accordion */
@@ -1212,6 +1220,14 @@ hr{
     }
     .services__icon{
         left: 0;
+    }
+
+    /* Wedo */
+    .wedo__img{
+        display: none;        
+    }
+    .wedo__item{
+        width: 100%;
     }
 }
 
