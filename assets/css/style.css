@@ -469,6 +469,8 @@ hr{
 
 .devices__item{
     display: block;
+    min-width: 100%;
+    height: auto;
 }
 
 .devices__item--iphone{
@@ -1173,6 +1175,9 @@ hr{
     .section{
         padding: 40px 0;
     }
+    .section--devices{
+        padding-bottom: 0;
+    }
     /* Card */
     .card{
         margin-top: 50px;
@@ -1245,5 +1250,15 @@ hr{
     }
     .stat__count{
         font-size: 52px;
+    }
+
+    /* Devices */
+    .devices{
+        min-width: 320px;
+    }
+    .devices__item--iphone{
+        width: 180px;
+        bottom: -50px;
+        right: -80px;
     }
 }
