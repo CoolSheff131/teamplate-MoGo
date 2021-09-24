@@ -1136,6 +1136,11 @@ hr{
         display: none;
     }
 
+    /* Section */
+    .section{
+        padding: 40px 0;
+    }
+
     /* Slider */
     .slider__text{
         display: none;
@@ -1154,5 +1159,18 @@ hr{
     }
     .intro__title{
         font-size: 120px;
+    }
+    /* Section */
+    .section__header{
+        margin-bottom: 50px;
+    }
+    .section__suptitle{
+        font-size: 20px;
+    }
+    .section{
+        font-size: 24px;
+    }
+    .section__title::after{
+        margin: 20px auto;
     }
 }
