@@ -29,8 +29,9 @@ hr{
 /* Container */
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Intro */
@@ -1104,4 +1105,54 @@ hr{
 
 .copyright span{
     color: #f38181;
+}
+
+@media(max-width: 1230px){
+
+    /* Intro */
+    .intro__suptitle{
+        font-size: 52px;
+    }
+    .intro__title{
+        font-size: 120px;
+    }
+}
+
+@media(max-width: 990px){
+
+    /* Intro */
+    .intro__suptitle{
+        font-size: 32px;
+    }
+    .intro__title{
+        font-size: 80px;
+    }
+}
+
+@media(max-width: 770px){
+    
+    /* Nav */
+    .nav{
+        display: none;
+    }
+
+    /* Slider */
+    .slider__text{
+        display: none;
+    }
+
+    .slider__item.active:before{
+        width: 50%;
+    }
+}
+
+@media(max-width: 575px){
+
+    /* Intro */
+    .intro__suptitle{
+        font-size: 52px;
+    }
+    .intro__title{
+        font-size: 120px;
+    }
 }
