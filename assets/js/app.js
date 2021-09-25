@@ -48,4 +48,12 @@ $(function(){
             blockId = $this.data("collapse");
         $(blockId).slideToggle()
     });
+
+    /* Slider */
+    $("[data-slider]").slick({
+        infinity:true,
+        fade: false,
+        slidesToShow: 1,
+        slidesToScoll: 1
+    });
 });
